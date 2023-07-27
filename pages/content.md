@@ -4,7 +4,7 @@ layout: about
 permalink: /content.html
 ---
 __Add a Content Page__
-To add a new page, you’ll need to create a new markdown stub or html file and add front matter to it. Then, you’ll need to add a link to the new page in your navigation bar.
+To add a new page, you’ll need to create a new markdown stub or html file and add front matter to it. Then, you’ll need to add a link to the new page in your nav bar.
 
 __Follow these steps:__
 
