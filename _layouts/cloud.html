@@ -13,6 +13,10 @@ layout: page
     and set default values for cloud include.
 
 {%- endcomment -%}
+{%- if page.cloud-fields == "site.data.theme.codes-fields" -%}
+    {% assign fields = site.data.theme.codes-fields %}
+    {% assign min = site.data.theme.codes-min | default: 1 %}
+    {% assign stopwords = site.data.theme.codes-stopwords %}
 {%- if page.cloud-fields == "site.data.theme.subjects-fields" -%}
     {% assign fields = site.data.theme.subjects-fields %}
     {% assign min = site.data.theme.subjects-min | default: 1 %}

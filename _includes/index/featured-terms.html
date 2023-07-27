@@ -2,9 +2,6 @@
 
     Featured Terms button-links.
     This include creates a card with btn links to the Browse page from a set of automatically generated or manually selected terms. Either use the "field" option to auto generate *or* the "featured" option to manually create list of terms.
-
-    E.G. --> {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="outline-info" max=8 %}
-
     E.G. --> {% include index/featured-terms.html featured="Example term; Another; One more" title="Topic Areas" btn-color="success" %}
 
     Options:
@@ -19,6 +16,8 @@
     Requires CB's "array_count_uniq.rb" plugin!
 
 {%- endcomment -%}
+{% include index/featured-terms.html field="codes" title="Top Codes" btn-color="outline-info" max=8 %}
+
 
 {% if include.featured %}
 {% assign topTerms = include.featured | split: ";" %}
@@ -28,8 +27,8 @@
 {% comment %} 
     Use termsField and termsMax to customize feature 
 {% endcomment %}
-{% assign termsField = include.field | default: "subject" %}
-{% assign termsMax = include.max | default: 5 %}
+{% assign termsField = include.field | default: "codes" %}
+{% assign termsMax = include.max | default: 10 %}
 {% if site.data.theme.browse-child-objects == true %}
 {%- assign terms = site.data[site.metadata] | where_exp: 'item','item.objectid' | map: termsField | join: ";" -%}
 {% else %}

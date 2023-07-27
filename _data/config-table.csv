@@ -1,5 +1,9 @@
 field,display_name
+creator,Creator
+subject,Subject
+location,Location
 title,Title
-date,Date
-description,Description
-subject,Subjects
+combined_codes,Codes
+rightsstatement,Rights Statement
+data_curation,Data Curation by
+project_administration,Project Administration by
