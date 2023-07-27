@@ -17,10 +17,10 @@ layout: page
     {% assign fields = site.data.theme.codes-fields %}
     {% assign min = site.data.theme.codes-min | default: 1 %}
     {% assign stopwords = site.data.theme.codes-stopwords %}
-{%- if page.cloud-fields == "site.data.theme.subjects-fields" -%}
+<!-- {%- if page.cloud-fields == "site.data.theme.subjects-fields" -%}
     {% assign fields = site.data.theme.subjects-fields %}
     {% assign min = site.data.theme.subjects-min | default: 1 %}
-    {% assign stopwords = site.data.theme.subjects-stopwords %}
+    {% assign stopwords = site.data.theme.subjects-stopwords %} -->
 {%- elsif page.cloud-fields == "site.data.theme.locations-fields" -%}
     {% assign fields = site.data.theme.locations-fields %}
     {% assign min = site.data.theme.locations-min | default: 1 %}
