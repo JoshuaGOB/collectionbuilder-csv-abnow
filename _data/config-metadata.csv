@@ -8,8 +8,5 @@ location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license
 codes,Codes,TRUE,,DCTERMS.subject,keywords

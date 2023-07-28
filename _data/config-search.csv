@@ -1,6 +1,6 @@
 field,index,display
 title,TRUE,TRUE
-date,TRUE,TRUE
+date,TRUE,FALSE
 creator,TRUE,FALSE
 description,TRUE,TRUE
 subject,TRUE,TRUE

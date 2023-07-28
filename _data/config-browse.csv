@@ -1,9 +1,9 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,TRUE,Date
 creator,Creator,,,
-subject,,TRUE,,
+subject,,TRUE,TRUE,
 location,,TRUE,,
-identifier,,,TRUE,Identifier
-combined_codes,Codes,TRUE,,
+identifier,,,TRUE,
+combined_codes,Codes,TRUE,,Codes
 rights,Rights,,,
-description,,,,
+description,,TRUE,,
